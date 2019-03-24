@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "PingFang";
+  src: url('PingFang-SC-Light_0.ttf');
+}
+body {
+  background-color: black;
+}
+h1 {
+  color: grey;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+h2 {
+  color: grey;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.things-section {
+  text-align: center;
+}
+.w {
+  display: inline-block;
+}
+.thing {
+  background-color: white;
+  border: #3899e8 3px solid;
+  border-radius: 6px;
+  height: 500px;
+  width: 400px;
+  margin: 30px;
+  float: left;
+}
+.thing p {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.top{
+  text-align: center;
+}
+.tag {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4ca6a6;
+  color: white;
+  font-size: 19px;
+  font-family: "Corbel";
+  transition: all .5s;
+  display: inline-block;
+}
+
+.tag:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.profile-pic {
+  border-radius: 50%;
+  transition: all .5s;
+  height: 200px;
+  width: 200px;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+::selection {
+  color: inherit;
+  background: black;
+  color: white;
+}
